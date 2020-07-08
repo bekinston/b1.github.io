@@ -477,7 +477,7 @@ class Map extends React.Component {
         const styles: MapboxStyleDefinition[] = [
             {
                 title: "Спутник",
-                uri: "mapbox://styles/bektalgat1/ckbj6e8ld25ju1iqhlyxpnzqp"
+                uri: "mapbox://styles/bektalgat1/ckc04f9gk43hv1iqq0hhw406b"
             },
             {
                 title: "Темная",
@@ -485,12 +485,12 @@ class Map extends React.Component {
             },
             {
                 title: "Географическая",
-                uri: "mapbox://styles/bektalgat1/ckbiwct4e1t2i1iljnnpnpkf3"
+                uri: "mapbox://styles/bektalgat1/ckc04fn8x356v1imnb4txweqx"
             }
         ];
         this.map = new mapboxgl.Map({
             container: this.mapRef.current,
-            style: 'mapbox://styles/bektalgat1/ckbiwct4e1t2i1iljnnpnpkf3',
+            style: 'mapbox://styles/bektalgat1/ckc04fn8x356v1imnb4txweqx',
             center: [46.957, 69.155],
             zoom: 1.5,
         });
