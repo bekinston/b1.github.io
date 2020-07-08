@@ -1,0 +1,121 @@
+ <!DOCTYPE html>
+<html lang='en'>
+<head>
+  <title></title>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link href='https://api.mapbox.com/mapbox-assembly/mbx/v0.18.0/assembly.min.css' rel='stylesheet'>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.39.1/mapbox-gl.css' rel='stylesheet' />
+  <link href="mapbox-gl-controls/theme.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
+  <style>
+    #app > div > div.absolute.top.right.left.bottom.mapboxgl-map > div.mapboxgl-control-container > div.mapboxgl-ctrl-bottom-right > div.mapboxgl-ctrl.mapboxgl-ctrl-group.mapboxgl-ctrl-compass.-active > button
+    {padding-top: 1px;
+      PADDING-LEFT: 3PX;}
+    #app > div > div.absolute.top.right.left.bottom.mapboxgl-map > div.mapboxgl-control-container > div.mapboxgl-ctrl-bottom-right > div.mapboxgl-ctrl.mapboxgl-ctrl-group.mapboxgl-ctrl-ruler > button {
+      PADDING-TOP: 1PX;
+      PADDING-LEFT: 3PX;
+    }
+    #app > div > div.absolute.top.right.left.bottom.mapboxgl-map > div.mapboxgl-control-container > div.mapboxgl-ctrl-bottom-right > div.mapboxgl-ctrl.mapboxgl-ctrl-group.mapboxgl-ctrl-zoom >
+    button:nth-child(1){
+      PADDING-LEFT: 3px;
+    }
+    #app > div > div.absolute.top.right.left.bottom.mapboxgl-map > div.mapboxgl-control-container > div.mapboxgl-ctrl-bottom-right > div.mapboxgl-ctrl.mapboxgl-ctrl-group.mapboxgl-ctrl-zoom > button:nth-child(2){
+      PADDING-LEFT: 3px;
+    }
+
+    .sidebar,
+    .filter-group {
+      font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+      font-weight: 600;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 1;
+      border-radius: 3px;
+      width: 150px;
+      color: #fff;
+    }
+
+    .sidebar{
+      z-index: 9999;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 180px;
+    }
+
+    .filter-group input[type='checkbox']:first-child + label {
+      border-radius: 3px 3px 0 0;
+    }
+
+    .filter-group label:last-child {
+      margin-top: 10px;
+      margin-left: 10px;
+      border-radius: 0 0 3px 3px;
+      border: none;
+    }
+
+    .filter-group input[type='checkbox'] {
+      display: none;
+    }
+
+    .filter-group input[type='checkbox'] + label {
+      display: block;
+      cursor: pointer;
+      padding: 10px;
+      border-bottom: 1px solid rgb(0, 0, 0);
+      background: rgb(206, 66, 68);
+    }
+
+    .filter-group input[type='checkbox'] + label {
+      background: rgba(78, 160, 218, 0.5);
+      text-transform: capitalize;
+    }
+
+    .filter-group input[type='checkbox'] + label:hover,
+    .filter-group input[type='checkbox']:checked + label {
+
+      background-color: rgba(78, 160, 218, 1);
+    }
+
+    .filter-group input[type='checkbox']:checked + label:before {
+      content: '✔';
+      margin-right: 5px;
+    }
+
+    .map-overlay {
+      position:absolute;
+      height:30%;
+      width: 170px;
+      left:10px;
+      top:40%;
+      font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+      background-color: #fff;
+      border-radius: 3px;
+      padding: 10px;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    }
+    .map-legend {
+      position:absolute;
+      height:50px;
+      width: 400px;
+      bottom: 20px;
+      left:30%;
+      font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+      background-color: #fff;
+      border-radius: 3px;
+      padding: 10px;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <div id='app'></div>
+  <script src='https://api.mapbox.com/mapbox-assembly/mbx/v0.18.0/assembly.js'></script>
+</body>
+</html>

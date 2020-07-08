@@ -1,0 +1,37 @@
+{
+  "homepage": "http://bekinston.github.io/b1.github.io",
+  "name": "basic",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "react-scripts": "2.1.8"
+  },
+  "dependencies": {
+    "@mapbox/mapbox-gl-geocoder": "^4.5.1",
+    "@mapbox/react-geocoder": "^2.5.0",
+    "es6-promise": "^4.2.8",
+    "mapbox-gl": "^1.11.0",
+    "mapbox-gl-controls": "^1.6.4",
+    "mapbox-gl-geocoder": "^2.0.1",
+    "mapbox-gl-infobox": "^1.0.3",
+    "mapbox-gl-style-switcher": "^1.0.6",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-map-gl-geocoder": "^2.0.11",
+    "react-mapbox-gl-geocoder": "^1.1.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
