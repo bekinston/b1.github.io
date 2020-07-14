@@ -47,9 +47,9 @@ class FilterBox extends React.Component{
             },
             paint: {
               "text-halo-width": 1,
-              "text-halo-blur":0,
-              "text-halo-color":"#ffffff",
-              "text-color": "#000000"
+              "text-halo-blur":1,
+              "text-halo-color":"#000000",
+              "text-color": "#ffffff"
             },
             'filter': ['==', 'title', name],
           });
