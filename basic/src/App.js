@@ -19,12 +19,12 @@ const data =  {
         'name': 'Балхашская обогатительная фабрика',
         'title': 'Балхашская обогатительная фабрика',
         'description':
-            '<p><img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/%D0%9F%D0%9E_%D0%91%D0%B0%D0%BB%D1%85%D0%B0%D1%88%D1%86%D0%B2%D0%B5%D1%82%D0%BC%D0%B5%D1%82.jpg">' +
-            '<h1 style="text-align:center;">Балхашская обогатительная фабрика</h1></p>'
+            '<h1 style="font-weight: bold"; align="center"; >Балхашская обогатительная фабрика</h1></p>'
             +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :ТОО "Kazakhmys Holding"</li>\n' +
-            '     <li>Обработка : Цветные Металлы </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ТОО "Kazakhmys Holding"</li>\n' +
+            '     <li style="font-weight: bold">Обогащение :<li> Цветные Металлы </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li> Общая производительность 3.3 млн тонн руды в год. Переработка контцентратов:меди  </li>'+
             '   </ul>\n' +
             '   <hr>'
         ,
@@ -42,12 +42,12 @@ const data =  {
         'name': 'Карагайлинская обогатительная фабрика',
         'title': 'Карагайлинская обогатительная фабрика',
         'description':
-            '<p><img src="https://photos.wikimapia.org/p/00/03/90/29/15_big.jpg">' +
-            '<h1 style="text-align:center;">Карагайлинская обогатительная фабрика</h1></p>'
+            '<h1 style="font-weight: bold"; align="center"; >Карагайлинская обогатительная фабрика</h1></p>'
             +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :ТОО "Kazakhmys Holding"</li>\n' +
-            '     <li>Обработка : Цветные Металлы </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ТОО "Kazakhmys Holding"</li>\n' +
+            '     <li style="font-weight: bold">Обогащение :<li> Цветные Металлы </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li> Общая производительность 1.7 млн тонн руды в год. Переработка контцентратов:цинка,меди и пирит</li>'+
             '   </ul>\n' +
             '   <hr>'
         ,
@@ -68,12 +68,12 @@ const data =  {
         'name': 'Нурказаганская обогатительная фабрика',
         'title': 'Нурказаганская обогатительная фабрика',
         'description':
-            '<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/%D0%9D%D1%83%D1%80%D0%BA%D0%B0%D0%B7%D0%B3%D0%B0%D0%BD.jpg/250px-%D0%9D%D1%83%D1%80%D0%BA%D0%B0%D0%B7%D0%B3%D0%B0%D0%BD.jpg">' +
-            '<h1 style="text-align:center;">Нурказаганская обогатительная фабрика</h1></p>'
+            '<h1 style="font-weight: bold"; align="center"; >Нурказаганская обогатительная фабрика</h1></p>'
             +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :ТОО "Kazakhmys Holding"</li>\n' +
-            '     <li>Обработка : Медно-Рудное Сырье </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ТОО "Kazakhmys Holding"</li>\n' +
+            '     <li style="font-weight: bold">Обогащение :<li> Цветные Металлы </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li>Общая производительность 4 млн тонн руды в год. Переработка контцентратов:меди  </li>'+
             '   </ul>\n' +
             '   <hr>'
         ,
@@ -94,7 +94,14 @@ const data =  {
         'name': 'Белоусовский ГОК',
         'title': 'Белоусовский ГОК',
         'description':
-            'fdfdfsdfssa'
+            '<h1 style="font-weight: bold"; align="center"; >Белоусовский ГОК</h1></p>'
+            +'<hr>\n' +
+            '   <ul>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ТОО "Kazakhmys Holding"</li>\n' +
+            '     <li style="font-weight: bold">Обогащение :<li> Цветные Металлы </li>\n' +
+            '<li style="font-weight: bold">Состояние :<li>приостановлен</li>'+
+            '   </ul>\n' +
+            '   <hr>'
         ,
         'category': 'production',
         'icon': 'qq'
@@ -113,16 +120,16 @@ const data =  {
         'name': 'Балхашский медеплавильный завод',
         'title': 'Балхашский медеплавильный завод',
         'description':
-            '<p><img src="https://24.kz/media/k2/items/cache/dc3037ff52a2f0078b33cc0a28e01158_XL.jpg">' +
-            '<h1 style="text-align:center;">Балхашский медеплавильный завод</h1></p>'
+            '<h1 style="font-weight: bold"; align="center"; >Балхашский медеплавильный завод</h1></p>'
             +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :ТОО "Kazakhmys Holding"</li>\n' +
-            '     <li>обогошение : Медь </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ТОО "Kazakhmys Holding"</li>\n' +
+            '     <li style="font-weight: bold">Переработка :<li> Медь </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li> Производство 225 тыс.т катодной меди в год  </li>'+
             '   </ul>\n' +
             '   <hr>'
         ,
-        'category': 'production',
+        'category': 'processing',
         'icon': 'qq'
       },
       'geometry': {
@@ -139,16 +146,16 @@ const data =  {
         'name': 'Жезказганский медеплавильный завод',
         'title': 'Жезказганский медеплавильный завод',
         'description':
-            '<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Jezkazgan_04.JPG/250px-Jezkazgan_04.JPG">' +
-            '<h1 style="text-align:center;">Жезказганский медеплавильный завод\n</h1></p>'
+            '<h1 style="font-weight: bold"; align="center"; >Жезказганский медеплавильный завод</h1></p>'
             +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :ТОО "Kazakhmys Holding"</li>\n' +
-            '     <li>обогошение : Медь </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ТОО "Kazakhmys Holding"</li>\n' +
+            '     <li style="font-weight: bold">Переработка :<li> Медь </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li>  Производство 115 тыс.т катодной меди в год </li>'+
             '   </ul>\n' +
             '   <hr>'
         ,
-        'category': 'production',
+        'category': 'processing',
         'icon': 'qq'
       },
       'geometry': {
@@ -165,12 +172,12 @@ const data =  {
         'name': 'ГРЭС Топар',
         'title': 'ГРЭС Топар',
         'description':
-            '<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/%D0%9A%D0%B0%D1%80%D0%B0%D0%B3%D0%B0%D0%BD%D0%B4%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%93%D0%A0%D0%AD%D0%A1-2.jpg/1024px-%D0%9A%D0%B0%D1%80%D0%B0%D0%B3%D0%B0%D0%BD%D0%B4%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%93%D0%A0%D0%AD%D0%A1-2.jpg">' +
-            '<h1 style="text-align:center;">Жезказганский медеплавильный завод\n</h1></p>'
-            + '<hr>\n' +
+            '<h1 style="font-weight: bold"; align="center"; >ГРЭС Топар</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :ТОО "Kazakhmys Holding"</li>\n' +
-            '     <li>Тип Предприятия : ГРЭС </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ТОО "Kazakhmys Holding"</li>\n' +
+            '     <li style="font-weight: bold">Предприятие :<li> ГРЭС </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li> 4242 млн кВтч электроэнергий, 608 тыс Гкал теплоэнергий </li>'+
             '   </ul>\n' +
             '   <hr>'
         ,
@@ -191,12 +198,12 @@ const data =  {
         'name': 'Балхашская ТЭЦ',
         'title': 'Балхашская ТЭЦ',
         'description':
-            '<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/%D0%9A%D0%B0%D1%80%D0%B0%D0%B3%D0%B0%D0%BD%D0%B4%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%93%D0%A0%D0%AD%D0%A1-2.jpg/1024px-%D0%9A%D0%B0%D1%80%D0%B0%D0%B3%D0%B0%D0%BD%D0%B4%D0%B8%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%93%D0%A0%D0%AD%D0%A1-2.jpg">' +
-            '<h1 style="text-align:center;">Балхашская ТЭЦ</h1></p>'
-            + '<hr>\n' +
+            '<h1 style="font-weight: bold"; align="center"; >Балхашская ТЭЦ</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :ТОО "Kazakhmys Holding"</li>\n' +
-            '     <li>Тип Предприятия : ТЭЦ  </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ТОО "Kazakhmys Holding"</li>\n' +
+            '     <li style="font-weight: bold">Тип Предприятия :<li> ТЭЦ </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li> 928.млн кВтч электроэнергий, 793.тыс Гкал теплоэнергий  </li>'+
             '   </ul>\n' +
             '   <hr>'
         ,
@@ -217,12 +224,12 @@ const data =  {
         'name': 'Жезказганская ТЭЦ',
         'title': 'Жезказганская ТЭЦ',
         'description':
-            '<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Jezkazgan_01.jpg/300px-Jezkazgan_01.jpg">' +
-            '<h1 style="text-align:center;">Балхашская ТЭЦ</h1></p>'
-            + '<hr>\n' +
+            '<h1 style="font-weight: bold"; align="center"; >Жезказганская ТЭЦ</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :ТОО "Kazakhmys Holding"</li>\n' +
-            '     <li>Тип Предприятия : ТЭЦ  </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ТОО "Kazakhmys Holding"</li>\n' +
+            '     <li style="font-weight: bold">Тип Предприятия :<li> ТЭЦ </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li> 1431.млн кВтч электроэнергий, 1283.тыс Гкал теплоэнергий  </li>'+
             '   </ul>\n' +
             '   <hr>'
         ,
@@ -243,12 +250,12 @@ const data =  {
         'name': 'ГРЭС 1 (Экибастуз)',
         'title': 'ГРЭС 1 (Экибастуз)',
         'description':
-            '<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Ekibastuz_GRES-1.jpg/300px-Ekibastuz_GRES-1.jpg">' +
-            '<h1 style="text-align:center;">ГРЭС 1 (Экибастуз)</h1></p>'
-            + '<hr>\n' +
+            '<h1 style="font-weight: bold"; align="center"; >ГРЭС 1 (Экибастуз)</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :АО "Самрук энерго"</li>\n' +
-            '     <li>Тип Предприятия : ГРЭС  </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>АО "Самрук энерго"</li>\n' +
+            '     <li style="font-weight: bold">Тип Предприятия :<li> ГРЭС </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li>  4000 МВт электроэнергий  </li>'+
             '   </ul>\n' +
             '   <hr>'
         ,
@@ -269,12 +276,12 @@ const data =  {
         'name': 'ГРЭС 2 (Экибастуз)',
         'title': 'ГРЭС 2 (Экибастуз)',
         'description':
-            '<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/GRES-2.jpg/250px-GRES-2.jpg">' +
-            '<h1 style="text-align:center;">ГРЭС 2 (Экибастуз)</h1></p>'
-            + '<hr>\n' +
+            '<h1 style="font-weight: bold"; align="center"; >ГРЭС 2 (Экибастуз)</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :АО "Самрук энерго"</li>\n' +
-            '     <li>Тип Предприятия : ГРЭС  </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>АО "Самрук энерго"</li>\n' +
+            '     <li style="font-weight: bold">Тип Предприятия :<li> ГРЭС </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li> 4000 МВт электроэнергий  </li>'+
             '   </ul>\n' +
             '   <hr>'
         ,
@@ -298,12 +305,12 @@ const data =  {
         'category': 'minning',
         'icon': 'qq',
         'description':
-            '<p><img src="https://lh3.googleusercontent.com/proxy/wBvhFMENCY8sz_26pvvbHJB6sWfzDEnAdVM-wvsmwxEtILqwGJDKNQV4tWtfd1jjsvbhiFUNM_m1GxEboZnoI_wisX5FuIMWt6k17IHXCv5FCrb8wswbdUKC">' +
-            '<h1 style="text-align:center;">Рудник Молодежный</h1></p>'
-            + '<hr>\n' +
+            '<h1 style="font-weight: bold"; align="center"; >р. Молодежный</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :ТОО "Kazakhmys Holding"</li>\n' +
-            '     <li>Добыча : уголь  </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ТОО "Kazakhmys Holding"</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> уголь </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li>  7,6 млн.т угля в год  </li>'+
             '   </ul>\n' +
             '   <hr>'
       },
@@ -322,12 +329,12 @@ const data =  {
         'title': 'медная руда',
         'category': 'minning',
         'icon': 'qq',
-        'description': '<p><img src="https://avt-27.foto.mail.ru/mail/abiz04/_avatar180?">' +
-            '<h1 style="text-align:center;">Рудник Абыз</h1></p>'
-            + '<hr>\n' +
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >р. Абыз</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :АО "ТОО "Kazakhmys Holding"</li>\n' +
-            '     <li>Добыча : медь </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ТОО "Kazakhmys Holding"</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Медь </li>\n' +
             '   </ul>\n' +
             '   <hr>',
       },
@@ -346,12 +353,13 @@ const data =  {
         'title': 'золото',
         'category': 'minning',
         'icon': 'qq',
-        'description': '<p><img src="https://avt-27.foto.mail.ru/mail/abiz04/_avatar180?">' +
-            '<h1 style="text-align:center;">р. Саяк 4</h1></p>'
-            + '<hr>\n' +
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >р. Саяк 4</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :АО «АК Алтыналмас»</li>\n' +
-            '     <li>Добыча : медь </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>АО «АК Алтыналмас»</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Золото </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li> 165 тыс.т руды   </li>'+
             '   </ul>\n' +
             '   <hr>',
       },
@@ -370,12 +378,12 @@ const data =  {
         'title': 'золото',
         'category': 'minning',
         'icon': 'qq',
-        'description': '<p><img src="https://avt-27.foto.mail.ru/mail/abiz04/_avatar180?">' +
-            '<h1 style="text-align:center;">р. Акунгур (Байканурская пл.) </h1></p>'
-            + '<hr>\n' +
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >р. Акунгур (Байканурская пл.)</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :ОСоО "Глобал Азия Менеджмент"</li>\n' +
-            '     <li>Добыча : медь </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ОСоО "Глобал Азия Менеджмент"</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Золото </li>\n' +
             '   </ul>\n' +
             '   <hr>',
       },
@@ -394,12 +402,12 @@ const data =  {
         'title': 'уголь',
         'category': 'minning',
         'icon': 'qq',
-        'description': '<p><img src="https://avt-27.foto.mail.ru/mail/abiz04/_avatar180?">' +
-            '<h1 style="text-align:center;">Мизерное (Сымтасская пл.) </h1></p>'
-            + '<hr>\n' +
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Мизерное (Сымтасская пл.)</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :ОСоО "Глобал Азия Менеджмент"</li>\n' +
-            '     <li>Добыча : уголь </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ОСоО "Глобал Азия Менеджмент"</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Золото </li>\n' +
             '   </ul>\n' +
             '   <hr>',
       },
@@ -418,12 +426,13 @@ const data =  {
         'title': 'уголь',
         'category': 'minning',
         'icon': 'qq',
-        'description': '<p><img src="https://avt-27.foto.mail.ru/mail/abiz04/_avatar180?">' +
-            '<h1 style="text-align:center;">месторождение Самарское  </h1></p>'
-            + '<hr>\n' +
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >месторождение Самарское</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :ТОО "Valdisere Mining" (RCG)</li>\n' +
-            '     <li>Добыча : медь </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ТОО "Valdisere Mining" (RCG)</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Уголь </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li> Нет Добычи  </li>'+
             '   </ul>\n' +
             '   <hr>',
       },
@@ -442,12 +451,13 @@ const data =  {
         'title': 'уголь',
         'category': 'minning',
         'icon': 'qq',
-        'description': '<p><img src="https://avt-27.foto.mail.ru/mail/abiz04/_avatar180?">' +
-            '<h1 style="text-align:center;">Каражыра </h1></p>'
-            + '<hr>\n' +
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Каражыра</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :ТОО "Vertex Holding"</li>\n' +
-            '     <li>Добыча : медь </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ТОО "Vertex Holding"</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Уголь </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li> 8,155 млн тонн угля в год  </li>'+
             '   </ul>\n' +
             '   <hr>',
       },
@@ -466,12 +476,13 @@ const data =  {
         'title': 'вольфрам',
         'category': 'minning',
         'icon': 'qq',
-        'description': '<p><img src="https://avt-27.foto.mail.ru/mail/abiz04/_avatar180?">' +
-            '<h1 style="text-align:center;">р. Акунгур (Байканурская пл.) </h1></p>'
-            + '<hr>\n' +
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >месторождение Саран</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :ТОО "Valdisere Mining" (RCG)</li>\n' +
-            '     <li>Добыча : вольфрам </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ТОО "Valdisere Mining" (RCG)</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Вольфрамовая Руда </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li>  нет добычи (пока проект)  </li>'+
             '   </ul>\n' +
             '   <hr>',
       },
@@ -490,12 +501,11 @@ const data =  {
         'title': 'золото',
         'category': 'minning',
         'icon': 'qq',
-        'description': '<p><img src="https://avt-27.foto.mail.ru/mail/abiz04/_avatar180?">' +
-            '<h1 style="text-align:center;">месторождение Анисимов ключ) </h1></p>'
-            + '<hr>\n' +
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >месторождение Анисимов ключ</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :ТОО "Анисимов Projekt" и СПК "Ертіс"</li>\n' +
-            '     <li>Добыча : вольфрам </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ТОО "Анисимов Projekt" и СПК "Ертіс"</li>\n' +
             '   </ul>\n' +
             '   <hr>',
       },
@@ -514,12 +524,13 @@ const data =  {
         'title': 'золото',
         'category': 'minning',
         'icon': 'qq',
-        'description': '<p><img src="https://avt-27.foto.mail.ru/mail/abiz04/_avatar180?">' +
-            '<h1 style="text-align:center;">Акбакай </h1></p>'
-            + '<hr>\n' +
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Акбакай</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность АО «АК Алтыналмас»</li>\n' +
-            '     <li>Добыча : Золото</li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>АО «АК Алтыналмас»</li>\n' +
+            '     <li style="font-weight: bold">Добыча:<li> Золото </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li> 825 тыс. тонн руды в год </li>'+
             '   </ul>\n' +
             '   <hr>',
       },
@@ -538,12 +549,13 @@ const data =  {
         'title': 'золото',
         'category': 'minning',
         'icon': 'qq',
-        'description': '<p><img src="https://avt-27.foto.mail.ru/mail/abiz04/_avatar180?">' +
-            '<h1 style="text-align:center;">р.Аксу </h1></p>'
-            + '<hr>\n' +
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >р.Аксу</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность АО «ГМК Казахалтын»</li>\n' +
-            '     <li>Добыча : Золото</li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>АО «ГМК Казахалтын»</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Золото </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li>  839,4 тыс тонн руды в год </li>'+
             '   </ul>\n' +
             '   <hr>',
       },
@@ -562,12 +574,13 @@ const data =  {
         'title': 'золото',
         'category': 'minning',
         'icon': 'qq',
-        'description': '<p><img src="https://avt-27.foto.mail.ru/mail/abiz04/_avatar180?">' +
-            '<h1 style="text-align:center;">р. Бестобе</h1></p>'
-            + '<hr>\n' +
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >р. Бестобе</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность АО «ГМК Казахалтын»</li>\n' +
-            '     <li>Добыча : Золото</li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>АО «ГМК Казахалтын»</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Золото </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li> 326, 2 тыс тонн руды в год  </li>'+
             '   </ul>\n' +
             '   <hr>',
       },
@@ -583,12 +596,13 @@ const data =  {
         'title': 'золото',
         'category': 'minning',
         'icon': 'qq',
-        'description': '<p><img src="https://avt-27.foto.mail.ru/mail/abiz04/_avatar180?">' +
-            '<h1 style="text-align:center;">р. Жолымбет</h1></p>'
-            + '<hr>\n' +
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >р. Жолымбет</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность АО «ГМК Казахалтын»</li>\n' +
-            '     <li>Добыча : Золото</li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>АО «ГМК Казахалтын»</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Золото </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li> 326, 2 тыс тонн руды в год  </li>'+
             '   </ul>\n' +
             '   <hr>',
       },
@@ -607,12 +621,13 @@ const data =  {
         'title': 'медная руда',
         'category': 'minning',
         'icon': 'qq',
-        'description': '<p><img src="https://vlast.kz/media/pages/m0/1450079259t4n2z_1000x768.jpg">' +
-            '<h1 style="text-align:center;">Рудник Кусмурун</h1></p>'
-            + '<hr>\n' +
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >р. Кусмурун</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :АО "ТОО "Kazakhmys Holding"</li>\n' +
-            '     <li>Добыча : Медь  </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ТОО "Kazakhmys Holding"</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> медная руда </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li> 1 млн тонн руды в год  </li>'+
             '   </ul>\n' +
             '   <hr>',
       },
@@ -631,12 +646,13 @@ const data =  {
         'title': 'медная-цинковая руда',
         'category': 'minning',
         'icon': 'qq',
-        'description': '<p><img src="https://vlast.kz/media/pages/m0/1450079259t4n2z_1000x768.jpg">' +
-            '<h1 style="text-align:center;">Иртышская шахта</h1></p>'
-            + '<hr>\n' +
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Иртышская шахта</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :KAZ Minerals</li>\n' +
-            '     <li>Добыча : медная-цинковая руда</li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>АО "KAZ Minerals"</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Медно-Цинковая Руда </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li> 0,6 млн тонн руды в год </li>'+
             '   </ul>\n' +
             '   <hr>',
       },
@@ -651,16 +667,17 @@ const data =  {
     {
       'name': 'медная-цинковая руда',
       'properties': {
-        'name': 'Артемьевская шахтаа',
+        'name': 'Артемьевская шахта',
         'title': 'медная-цинковая руда',
         'category': 'minning',
         'icon': 'qq',
-        'description': '<p><img src="https://vlast.kz/media/pages/m0/1450079259t4n2z_1000x768.jpg">' +
-            '<h1 style="text-align:center;">Артемьевская шахта</h1></p>'
-            + '<hr>\n' +
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Артемьевская шахта</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :KAZ Minerals</li>\n' +
-            '     <li>Добыча : медная-цинковая руда</li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>АО "KAZ Minerals"</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Медно-Цинковая и Свинцовая Руда </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li> 1.4 млн тонн руды   </li>'+
             '   </ul>\n' +
             '   <hr>',
       },
@@ -679,12 +696,13 @@ const data =  {
         'title': 'медная-цинковая руда',
         'category': 'minning',
         'icon': 'qq',
-        'description': '<p><img src="https://vlast.kz/media/pages/m0/1450079259t4n2z_1000x768.jpg">' +
-            '<h1 style="text-align:center;">Юбилейно-Снигирихинская шахта</h1></p>'
-            + '<hr>\n' +
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Юбилейно-Снигирихинская шахта</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :KAZ Minerals</li>\n' +
-            '     <li>Добыча : медная-цинковая руда</li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>АО "KAZ Minerals"</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Медно-Цинковая Руда </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li>  392 тыс. тонн  </li>'+
             '   </ul>\n' +
             '   <hr>',
       },
@@ -703,12 +721,13 @@ const data =  {
         'title': 'железная руда',
         'category': 'minning',
         'icon': 'qq',
-        'description': '<p><img src="https://vlast.kz/media/pages/m0/1450079259t4n2z_1000x768.jpg">' +
-            '<h1 style="text-align:center;">Бенкала</h1></p>'
-            + '<hr>\n' +
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Бенкала</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :ТОО "Vertex Holding"</li>\n' +
-            '     <li>Добыча : железная руда</li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ТОО "Vertex Holding"</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Железная Руда </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li> 1 млн тонн руды в год  </li>'+
             '   </ul>\n' +
             '   <hr>',
       },
@@ -727,12 +746,13 @@ const data =  {
         'title': 'медная руда',
         'category': 'minning',
         'icon': 'qq',
-        'description': '<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQnt0I77gigrXceZpe1U6H3GS5F7vfwx8trBt4k3DPvOvgnJjwe&usqp=CAU">' +
-            '<h1 style="text-align:center;">месторождение Хаджиконган</h1></p>'
-            + '<hr>\n' +
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >месторождение Хаджиконган</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :АО "ТОО "Kazakhmys Holding"</li>\n' +
-            '     <li>Добыча : Медь  </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ТОО "Kazakhmys Holding"</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Медная Руда </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li>  Временно Отсутсвуют  </li>'+
             '   </ul>\n' +
             '   <hr>',
       },
@@ -751,12 +771,12 @@ const data =  {
         'title': 'медная руда',
         'category': 'minning',
         'icon': 'qq',
-        'description': '<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQnt0I77gigrXceZpe1U6H3GS5F7vfwx8trBt4k3DPvOvgnJjwe&usqp=CAU">' +
-            '<h1 style="text-align:center;">з. Жаур</h1></p>'
-            + '<hr>\n' +
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >з. Жаур</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :АО "ТОО "Kazakhmys Holding"</li>\n' +
-            '     <li>Добыча : Медь  </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ТОО "Kazakhmys Holding"</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Медная Руда </li>\n' +
             '   </ul>\n' +
             '   <hr>',
       },
@@ -775,12 +795,13 @@ const data =  {
         'title': 'медная руда',
         'category': 'minning',
         'icon': 'qq',
-        'description': '<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQnt0I77gigrXceZpe1U6H3GS5F7vfwx8trBt4k3DPvOvgnJjwe&usqp=CAU">' +
-            '<h1 style="text-align:center;">р. Акбастау</h1></p>'
-            + '<hr>\n' +
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >р. Акбастау</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :АО "ТОО "Kazakhmys Holding"</li>\n' +
-            '     <li>Добыча : Медь  </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ТОО "Kazakhmys Holding"</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Медная Руда </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li> 1.4 млн тонн руды в год  </li>'+
             '   </ul>\n' +
             '   <hr>',
       },
@@ -796,12 +817,12 @@ const data =  {
         'title': 'медная руда',
         'category': 'minning',
         'icon': 'qq',
-        'description': '<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQnt0I77gigrXceZpe1U6H3GS5F7vfwx8trBt4k3DPvOvgnJjwe&usqp=CAU">' +
-            '<h1 style="text-align:center;">з. Шешенкара</h1></p>'
-            + '<hr>\n' +
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >з. Шешенкара</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :АО "ТОО "Kazakhmys Holding"</li>\n' +
-            '     <li>Добыча : Медь  </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ТОО "Kazakhmys Holding"</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Медная Руда </li>\n' +
             '   </ul>\n' +
             '   <hr>',
       },
@@ -820,12 +841,12 @@ const data =  {
         'title': 'медная руда',
         'category': 'minning',
         'icon': 'qq',
-        'description': '<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQnt0I77gigrXceZpe1U6H3GS5F7vfwx8trBt4k3DPvOvgnJjwe&usqp=CAU">' +
-            '<h1 style="text-align:center;">Западный Хаджиконган</h1></p>'
-            + '<hr>\n' +
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Западный Хаджиконган</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :АО "ТОО "Kazakhmys Holding"</li>\n' +
-            '     <li>Добыча : Медь  </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ТОО "Kazakhmys Holding"</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Медная Руда </li>\n' +
             '   </ul>\n' +
             '   <hr>',
       },
@@ -844,12 +865,12 @@ const data =  {
         'title': 'медная руда',
         'category': 'minning',
         'icon': 'qq',
-        'description': '<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQnt0I77gigrXceZpe1U6H3GS5F7vfwx8trBt4k3DPvOvgnJjwe&usqp=CAU">' +
-            '<h1 style="text-align:center;">Жосалы</h1></p>'
-            + '<hr>\n' +
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Жосалы</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :АО "ТОО "Kazakhmys Holding"</li>\n' +
-            '     <li>Добыча : Медь  </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ТОО "Kazakhmys Holding"</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Медная Руда </li>\n' +
             '   </ul>\n' +
             '   <hr>',
       },
@@ -868,12 +889,12 @@ const data =  {
         'title': 'медная руда',
         'category': 'minning',
         'icon': 'qq',
-        'description': '<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQnt0I77gigrXceZpe1U6H3GS5F7vfwx8trBt4k3DPvOvgnJjwe&usqp=CAU">' +
-            '<h1 style="text-align:center;">Жетимшокы</h1></p>'
-            + '<hr>\n' +
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Жетимшокы</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :ТОО СП Жетимшокы</li>\n' +
-            '     <li>Добыча : Медь  </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ТОО "СП Жетимшокы"</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Медная Руда </li>\n' +
             '   </ul>\n' +
             '   <hr>',
       },
@@ -892,12 +913,12 @@ const data =  {
         'title': 'медная руда',
         'category': 'minning',
         'icon': 'qq',
-        'description': '<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQnt0I77gigrXceZpe1U6H3GS5F7vfwx8trBt4k3DPvOvgnJjwe&usqp=CAU">' +
-            '<h1 style="text-align:center;">Коктас-Шарыкты</h1></p>'
-            + '<hr>\n' +
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Коктас-Шарыкты</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :ТОО СП Жетимшокы</li>\n' +
-            '     <li>Добыча : Медь  </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ТОО "Kazakhmys Holding"</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Медная Руда </li>\n' +
             '   </ul>\n' +
             '   <hr>',
       },
@@ -917,12 +938,12 @@ const data =  {
         'title': 'медная руда',
         'category': 'minning',
         'icon': 'qq',
-        'description': '<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQnt0I77gigrXceZpe1U6H3GS5F7vfwx8trBt4k3DPvOvgnJjwe&usqp=CAU">' +
-            '<h1 style="text-align:center;">з. Коктас-Жартас</h1></p>'
-            + '<hr>\n' +
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >з.Коктас-Жартас</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :АО "ТОО "Kazakhmys Holding"</li>\n' +
-            '     <li>Добыча : Медь  </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ТОО "Kazakhmys Holding"</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Медная Руда </li>\n' +
             '   </ul>\n' +
             '   <hr>',
       },
@@ -938,15 +959,16 @@ const data =  {
       'name': 'медная руда',
       'properties': {
         'name': 'р. Мизек',
-        'title': 'медная руда',
+        'title': 'золото',
         'category': 'minning',
         'icon': 'qq',
-        'description': '<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQnt0I77gigrXceZpe1U6H3GS5F7vfwx8trBt4k3DPvOvgnJjwe&usqp=CAU">' +
-            '<h1 style="text-align:center;">р. Мизек</h1></p>'
-            + '<hr>\n' +
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >р. Мизек</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :АО "ТОО "Kazakhmys Holding"</li>\n' +
-            '     <li>Добыча : Медь  </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>АО «АК Алтыналмас»</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Золото </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li> 900 тыс тонн  </li>'+
             '   </ul>\n' +
             '   <hr>',
       },
@@ -965,8 +987,9 @@ const data =  {
         'color': '#242668',
         'stroke-width': 4,
         'category': 'info',
-
-      },
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
+    },
       'geometry': {
         'type': 'LineString',
         'coordinates':[
@@ -1049,6 +1072,8 @@ const data =  {
         'color': '#006400',
         'stroke-width': 4,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -1076,6 +1101,8 @@ const data =  {
         'color': '#006400',
         'stroke-width': 4,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -1099,6 +1126,8 @@ const data =  {
         'color': '#006400',
         'stroke-width': 4,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -1126,6 +1155,8 @@ const data =  {
         'color': '#006400',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -1149,6 +1180,8 @@ const data =  {
         'color': '#006400',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -1176,6 +1209,8 @@ const data =  {
         'color': '#ff0000',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -1243,6 +1278,8 @@ const data =  {
         'color': '#ff0000',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -1310,6 +1347,8 @@ const data =  {
         'color': '#ff0000',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -1337,6 +1376,8 @@ const data =  {
         'color': '#0000ff',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -1364,6 +1405,8 @@ const data =  {
         'color': '#006400',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -1387,6 +1430,8 @@ const data =  {
         'color': '#ff0000',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -1414,6 +1459,8 @@ const data =  {
         'color': '#006400',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -1441,6 +1488,8 @@ const data =  {
         'color': '#0000ff',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -1468,6 +1517,8 @@ const data =  {
         'color': '#006400',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -1491,6 +1542,8 @@ const data =  {
         'color': '#0000ff',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -1514,6 +1567,8 @@ const data =  {
         'color': '#006400',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -1541,6 +1596,8 @@ const data =  {
         'color': '#006400',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -1568,6 +1625,8 @@ const data =  {
         'color': '#006400',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -1599,6 +1658,8 @@ const data =  {
         'color': '#0000ff',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -1630,6 +1691,8 @@ const data =  {
         'color': '#006400',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -1685,6 +1748,8 @@ const data =  {
         'color': '#0000ff',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -1716,6 +1781,8 @@ const data =  {
         'color': '#006400',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -1747,6 +1814,8 @@ const data =  {
         'color': '#006400',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -1778,6 +1847,8 @@ const data =  {
         'color': '#0000ff',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -1809,6 +1880,8 @@ const data =  {
         'color': '#006400',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -1864,6 +1937,8 @@ const data =  {
         'color': '#0000ff',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -1895,6 +1970,8 @@ const data =  {
         'color': '#006400',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -1922,6 +1999,8 @@ const data =  {
         'color': '#0000ff',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -1953,6 +2032,8 @@ const data =  {
         'color': '#0000ff',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -1980,6 +2061,8 @@ const data =  {
         'color': '#0000ff',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -2003,6 +2086,8 @@ const data =  {
         'color': '#0000ff',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -2030,6 +2115,8 @@ const data =  {
         'color': '#0000ff',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -2053,6 +2140,8 @@ const data =  {
         'color': '#0000ff',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -2084,6 +2173,8 @@ const data =  {
         'color': '#006400',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -2123,6 +2214,8 @@ const data =  {
         'color': '#006400',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -2146,6 +2239,8 @@ const data =  {
         'color': '#006400',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -2169,6 +2264,8 @@ const data =  {
         'color': '#0000ff',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -2192,6 +2289,8 @@ const data =  {
         'color': '#006400',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -2227,6 +2326,8 @@ const data =  {
         'color': '#006400',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -2250,6 +2351,8 @@ const data =  {
         'color': '#006400',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -2285,6 +2388,8 @@ const data =  {
         'color': '#006400',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -2308,6 +2413,8 @@ const data =  {
         'color': '#ff0000',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -2331,6 +2438,8 @@ const data =  {
         'color': '#ff0000',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -2362,6 +2471,8 @@ const data =  {
         'color': '#006400',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -2389,6 +2500,8 @@ const data =  {
         'color': '#006400',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -2416,6 +2529,8 @@ const data =  {
         'color': '#006400',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -2443,6 +2558,8 @@ const data =  {
         'color': '#006400',
         'stroke-width': 2,
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >ЛЭП</h1>'
 
       },
       'geometry': {
@@ -2466,6 +2583,9 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
       },
       'geometry': {
         'type': 'LineString',
@@ -2579,6 +2699,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -2628,6 +2752,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -2677,6 +2805,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -2750,6 +2882,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -2799,6 +2935,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -2844,6 +2984,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -2901,6 +3045,11 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -2950,6 +3099,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -3003,6 +3156,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -3056,6 +3213,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -3089,6 +3250,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -3142,6 +3307,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -3223,6 +3392,11 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -3328,6 +3502,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -3369,6 +3547,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -3426,6 +3608,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -3531,6 +3717,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -3564,6 +3754,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -3681,6 +3875,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -3702,6 +3900,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -3731,6 +3933,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -3796,6 +4002,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -3941,6 +4151,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -3966,6 +4180,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -3987,6 +4205,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -4045,6 +4267,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -4082,6 +4308,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -4111,6 +4341,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -4176,6 +4410,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -4269,6 +4507,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -4306,6 +4548,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -4339,6 +4585,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -4412,6 +4662,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -4477,6 +4731,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -4606,6 +4864,10 @@ const data =  {
         'title': 'Дороги',
         'color': '#382727',// red
         'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
       },
       'geometry': {
         'type': 'LineString',
@@ -4659,7 +4921,12 @@ const data =  {
       'properties': {
         'title': 'Железные Дороги',
         'color': '#525252',
-        'category': 'info', // red
+        'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
+
+        // red
 
       },
       'geometry': {
@@ -4702,6 +4969,9 @@ const data =  {
         'title': 'Железные Дороги',
         'color': '#525252',
         'category': 'info', // red
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
 
       },
       'geometry': {
@@ -4780,6 +5050,9 @@ const data =  {
         'title': 'Железные Дороги',
         'color': '#525252',
         'category': 'info', // red
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
 
       },
       'geometry': {
@@ -4810,6 +5083,9 @@ const data =  {
         'title': 'Железные Дороги',
         'color': '#525252',
         'category': 'info', // red
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
 
       },
       'geometry': {
@@ -4980,6 +5256,9 @@ const data =  {
         'title': 'Железные Дороги',
         'color': '#525252',
         'category': 'info', // red
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
 
       },
       'geometry': {
@@ -5018,6 +5297,9 @@ const data =  {
         'title': 'Железные Дороги',
         'color': '#525252',
         'category': 'info', // red
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
 
       },
       'geometry': {
@@ -5080,6 +5362,9 @@ const data =  {
         'title': 'Железные Дороги',
         'color': '#525252',
         'category': 'info', // red
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
 
       },
       'geometry': {
@@ -5278,6 +5563,9 @@ const data =  {
         'title': 'Железные Дороги',
         'color': '#525252',
         'category': 'info', // red
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
 
       },
       'geometry': {
@@ -5320,6 +5608,9 @@ const data =  {
         'title': 'Железные Дороги',
         'color': '#525252',
         'category': 'info', // red
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
 
       },
       'geometry': {
@@ -5702,6 +5993,9 @@ const data =  {
         'title': 'Железные Дороги',
         'color': '#525252',
         'category': 'info', // red
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
 
       },
       'geometry': {
@@ -5912,6 +6206,9 @@ const data =  {
         'title': 'Железные Дороги',
         'color': '#525252',
         'category': 'info', // red
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
 
       },
       'geometry': {
@@ -5986,6 +6283,9 @@ const data =  {
         'title': 'Железные Дороги',
         'color': '#525252',
         'category': 'info', // red
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
 
       },
       'geometry': {
@@ -6064,6 +6364,9 @@ const data =  {
         'title': 'Железные Дороги',
         'color': '#525252',
         'category': 'info', // red
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
 
       },
       'geometry': {
@@ -6102,6 +6405,9 @@ const data =  {
         'title': 'Железные Дороги',
         'color': '#525252',
         'category': 'info', // red
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
 
       },
       'geometry': {
@@ -6140,6 +6446,9 @@ const data =  {
         'title': 'Железные Дороги',
         'color': '#525252',
         'category': 'info', // red
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
 
       },
       'geometry': {
@@ -6218,6 +6527,9 @@ const data =  {
         'title': 'Железные Дороги',
         'color': '#525252',
         'category': 'info', // red
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
 
       },
       'geometry': {
@@ -6256,6 +6568,9 @@ const data =  {
         'title': 'Железные Дороги',
         'color': '#525252',
         'category': 'info', // red
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
 
       },
       'geometry': {
@@ -6378,6 +6693,9 @@ const data =  {
         'title': 'Железные Дороги',
         'color': '#525252',
         'category': 'info', // red
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
 
       },
       'geometry': {
@@ -6468,6 +6786,9 @@ const data =  {
         'title': 'Железные Дороги',
         'color': '#525252',
         'category': 'info', // red
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
 
       },
       'geometry': {
@@ -6510,6 +6831,9 @@ const data =  {
         'title': 'Железные Дороги',
         'color': '#525252',
         'category': 'info', // red
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
 
       },
       'geometry': {
@@ -6536,6 +6860,9 @@ const data =  {
         'title': 'Железные Дороги',
         'color': '#525252',
         'category': 'info', // red
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
 
       },
       'geometry': {
@@ -6586,6 +6913,9 @@ const data =  {
         'title': 'Железные Дороги',
         'color': '#525252',
         'category': 'info', // red
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
 
       },
       'geometry': {
@@ -6780,6 +7110,9 @@ const data =  {
         'title': 'Железные Дороги',
         'color': '#525252',
         'category': 'info', // red
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
 
       },
       'geometry': {
@@ -6834,6 +7167,9 @@ const data =  {
         'title': 'Железные Дороги',
         'color': '#525252',
         'category': 'info', // red
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
 
       },
       'geometry': {
@@ -6868,6 +7204,9 @@ const data =  {
         'title': 'Железные Дороги',
         'color': '#525252',
         'category': 'info', // red
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
 
       },
       'geometry': {
@@ -7090,6 +7429,9 @@ const data =  {
         'title': 'Железные Дороги',
         'color': '#525252',
         'category': 'info', // red
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
 
       },
       'geometry': {
@@ -7156,6 +7498,9 @@ const data =  {
         'title': 'Железные Дороги',
         'color': '#525252',
         'category': 'info', // red
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
 
       },
       'geometry': {
@@ -7198,6 +7543,9 @@ const data =  {
         'title': 'Железные Дороги',
         'color': '#525252',
         'category': 'info', // red
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
 
       },
       'geometry': {
@@ -7228,6 +7576,9 @@ const data =  {
         'title': 'Железные Дороги',
         'color': '#525252',
         'category': 'info', // red
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
 
       },
       'geometry': {
@@ -7262,6 +7613,9 @@ const data =  {
         'title': 'Железные Дороги',
         'color': '#525252',
         'category': 'info', // red
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Железная Дорога</h1>'
+
 
       },
       'geometry': {
@@ -7309,12 +7663,13 @@ const data =  {
         'title': 'уголь',
         'category': 'minning',
         'icon': 'qq',
-        'description': '<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTQUqBMZ-bHxaNf1xvf3ujgTJk-U72IHvSNHHYXi_wKf7xs0k46&usqp=CAU">' +
-            '<h1 style="text-align:center;">р. Мизек</h1></p>'
-            + '<hr>\n' +
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Куу-Чек</h1></p>'
+            +'<hr>\n' +
             '   <ul>\n' +
-            '     <li style="font-family:bold;">Принадлежность :АО "ТОО "Kazakhmys Holding"</li>\n' +
-            '     <li>Добыча : уголь  </li>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ТОО "Kazakhmys Holding"</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Уголь </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li>   900 тыс тонн угля в год  </li>'+
             '   </ul>\n' +
             '   <hr>',
       },
