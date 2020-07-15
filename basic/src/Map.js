@@ -66,6 +66,71 @@ class Map extends React.Component {
                 {
                     'type': 'Feature',
                     'properties': {
+                        'title': 'Карьерное',
+                    },
+                    'geometry': {
+                        'coordinates':  [
+                            72.696389,
+                            45.120833
+                        ],
+                        'type': 'Point'
+                    }
+                },
+                {
+                    'type': 'Feature',
+                    'properties': {
+                        'title': 'Долинное',
+                    },
+                    'geometry': {
+                        'coordinates': [
+                            79.252778,
+                            46.995
+                        ],
+                        'type': 'Point'
+                    }
+                },
+                {
+                    'type': 'Feature',
+                    'properties': {
+                        'title': 'Пустынное',
+                    },
+                    'geometry': {
+                        'coordinates': [
+                            76.049144,
+                            46.958447
+                        ],
+                        'type': 'Point'
+                    }
+                },
+                {
+                    'type': 'Feature',
+                    'properties': {
+                        'title': 'Орловская шахта',
+                    },
+                    'geometry': {
+                        'coordinates': [
+                            81.363482,
+                            50.935575
+                        ],
+                        'type': 'Point'
+                    }
+                },
+                {
+                    'type': 'Feature',
+                    'properties': {
+                        'title': 'месторождение Беркаринское',
+                    },
+                    'geometry': {
+                        'coordinates': [
+                            79.334072,
+                            49.313147
+                        ],
+                        'type': 'Point'
+                    }
+                },
+                {
+                    'type': 'Feature',
+                    'properties': {
                         'title': 'Нурказаганская обогатительная фабрика',
                     },
                     'geometry': {
@@ -283,8 +348,10 @@ class Map extends React.Component {
                         'title': 'р. Кусмурун',
                     },
                     'geometry': {
-                        'coordinates': [76.49316787719727,
-                            49.42392727883298],
+                        'coordinates': [
+                            77.706489,
+                            48.643696
+                        ],
                         'type': 'Point'
                     }},
                 {

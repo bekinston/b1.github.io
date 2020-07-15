@@ -372,6 +372,127 @@ const data =  {
       }
     },
     {
+      'name': 'медь',
+      'properties': {
+        'name': 'месторождение Беркаринское',
+        'title': 'медь',
+        'category': 'minning',
+        'icon': 'qq',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >месторождение Беркаринское</h1></p>'
+            +'<hr>\n' +
+            '   <ul>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>ТОО "Nouvelle Mining" (RCG)</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Медная Руда </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li> Нет Добычи   </li>'+
+            '   </ul>\n' +
+            '   <hr>',
+      },
+      'geometry': {
+        'type': 'Point',
+        'coordinates': [
+          79.334072,
+          49.313147
+        ]
+      }
+    },
+    {
+      'name': 'медь',
+      'properties': {
+        'name': 'Орловская шахта',
+        'title': 'медь',
+        'category': 'minning',
+        'icon': 'qq',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Орловская шахта</h1></p>'
+            +'<hr>\n' +
+            '   <ul>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>АО «KAZ Minerals»</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Медно-Цинковая Руда </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li> 1.15 млн руды   </li>'+
+            '   </ul>\n' +
+            '   <hr>',
+      },
+      'geometry': {
+        'type': 'Point',
+        'coordinates': [
+          81.363482,
+          50.935575
+        ]
+      }
+    },
+    {
+      'name': 'золото',
+      'properties': {
+        'name': 'Пустынное',
+        'title': 'золото',
+        'category': 'minning',
+        'icon': 'qq',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Пустынное</h1></p>'
+            +'<hr>\n' +
+            '   <ul>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>АО «АК Алтыналмас»</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Золото </li>\n' +
+            '<li style="font-weight: bold">Показатели :<li> 2.3 млн тонн руды  </li>'+
+            '   </ul>\n' +
+            '   <hr>',
+      },
+      'geometry': {
+        'type': 'Point',
+        'coordinates': [
+          76.049144,
+          46.958447
+        ]
+      }
+    },
+    {
+      'name': 'золото',
+      'properties': {
+        'title': 'Долинное',
+        'category': 'minning',
+        'icon': 'qq',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Долинное</h1></p>'
+            +'<hr>\n' +
+            '   <ul>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>АО «АК Алтыналмас»</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Золото </li>\n' +
+            '   </ul>\n' +
+            '   <hr>',
+      },
+      'geometry': {
+        'type': 'Point',
+        'coordinates': [
+          79.252778,
+          46.995
+        ]
+      }
+    },
+    {
+      'name': 'золото',
+      'properties': {
+        'title': 'Карьерное',
+        'category': 'minning',
+        'icon': 'qq',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Карьерное</h1></p>'
+            +'<hr>\n' +
+            '   <ul>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>АО «АК Алтыналмас»</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Золото </li>\n' +
+            '   </ul>\n' +
+            '   <hr>',
+      },
+      'geometry': {
+        'type': 'Point',
+        'coordinates': [
+          72.696389,
+          45.120833
+        ]
+      }
+    },
+    {
       'name': 'золото',
       'properties': {
         'name': 'р. Акунгур (Байканурская пл.) ',
@@ -634,8 +755,8 @@ const data =  {
       'geometry': {
         'type': 'Point',
         'coordinates': [
-          76.49316787719727,
-          49.42392727883298
+          77.706489,
+          48.643696
         ]
       }
     },
@@ -4298,6 +4419,171 @@ const data =  {
           [
             77.69458293914795,
             48.62709405479115
+          ]
+        ]
+      }
+    },
+    {
+      'name': 'Дороги',
+      'properties': {
+        'title': 'Дороги',
+        'color': '#382727',// red
+        'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
+      },
+      'geometry': {
+        'type': 'LineString',
+        'coordinates':    [
+          [
+            81.36347472667694,
+            50.93563003696576
+          ],
+          [
+            81.36348009109496,
+            50.93574835848675
+          ],
+          [
+            81.36501431465149,
+            50.93616079114913
+          ],
+          [
+            81.36821150779724,
+            50.93686394659826
+          ],
+          [
+            81.3684743642807,
+            50.93698564550049
+          ],
+          [
+            81.36851191520691,
+            50.937178334777656
+          ]
+        ]
+      }
+    },
+    {
+      'name': 'Дороги',
+      'properties': {
+        'title': 'Дороги',
+        'color': '#382727',// red
+        'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
+      },
+      'geometry': {
+        'type': 'LineString',
+        'coordinates':    [
+          [
+            77.70638465881348,
+            48.64362825727715
+          ],
+          [
+            77.70878791809082,
+            48.63977170664504
+          ],
+          [
+            77.70312309265137,
+            48.631206841266625
+          ],
+          [
+            77.69488334655762,
+            48.62717915032105
+          ]
+        ]
+
+      }
+    },
+    {
+      'name': 'Дороги',
+      'properties': {
+        'title': 'Дороги',
+        'color': '#382727',// red
+        'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
+      },
+      'geometry': {
+        'type': 'LineString',
+        'coordinates':   [
+          [
+            76.04907989501952,
+            46.959870280492964
+          ],
+          [
+            76.08341217041016,
+            46.935964163304945
+          ],
+          [
+            76.09371185302734,
+            46.90876383820043
+          ],
+          [
+            76.06178283691406,
+            46.897739085507
+          ],
+          [
+            75.92514038085938,
+            46.833421985001785
+          ],
+          [
+            75.79330444335938,
+            46.829194076477336
+          ],
+          [
+            75.18768310546875,
+            46.85549565938302
+          ],
+          [
+            75.0531005859375,
+            46.85737385116763
+          ],
+          [
+            75.00409126281738,
+            46.844636075396494
+          ]
+        ]
+      }
+    },
+    {
+      'name': 'Дороги',
+      'properties': {
+        'title': 'Дороги',
+        'color': '#382727',// red
+        'category': 'info',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Техническая Дорога</h1>'
+
+
+      },
+      'geometry': {
+        'type': 'LineString',
+        'coordinates':   [
+          [
+            72.69653320312499,
+            45.12247535653413
+          ],
+          [
+            72.70614624023438,
+            45.131922182216584
+          ],
+          [
+            72.74322509765625,
+            45.13628172793484
+          ],
+          [
+            72.75592803955078,
+            45.13482858305847
+          ],
+          [
+            72.82081604003906,
+            45.09727617266945
           ]
         ]
       }
