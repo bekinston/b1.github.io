@@ -449,29 +449,6 @@ const data =  {
     {
       'name': 'золото',
       'properties': {
-        'title': 'Долинное',
-        'category': 'minning',
-        'icon': 'qq',
-        'description':
-            '<h1 style="font-weight: bold"; align="center"; >Долинное</h1></p>'
-            +'<hr>\n' +
-            '   <ul>\n' +
-            '     <li style="font-weight: bold">Принадлежность :<li>АО «АК Алтыналмас»</li>\n' +
-            '     <li style="font-weight: bold">Добыча :<li> Золото </li>\n' +
-            '   </ul>\n' +
-            '   <hr>',
-      },
-      'geometry': {
-        'type': 'Point',
-        'coordinates': [
-          79.252778,
-          46.995
-        ]
-      }
-    },
-    {
-      'name': 'золото',
-      'properties': {
         'title': 'Карьерное',
         'category': 'minning',
         'icon': 'qq',
@@ -7964,6 +7941,31 @@ const data =  {
         'coordinates': [ 73.4015,50.2356],
       }
     },
+    {
+      'name': 'золото',
+      'properties': {
+        'name': 'Долинное',
+        'title': 'золото',
+        'category': 'minning',
+        'icon': 'qq',
+        'description':
+            '<h1 style="font-weight: bold"; align="center"; >Долинное</h1></p>'
+            +'<hr>\n' +
+            '   <ul>\n' +
+            '     <li style="font-weight: bold">Принадлежность :<li>АО «АК Алтыналмас»</li>\n' +
+            '     <li style="font-weight: bold">Добыча :<li> Золото </li>\n' +
+            '   </ul>\n' +
+            '   <hr>',
+      },
+      'geometry': {
+        'type': 'Point',
+        'coordinates': [
+          79.252778,
+          46.995
+        ],
+      }
+    },
+
 
   ],
 };
